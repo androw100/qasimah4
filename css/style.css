@@ -1,0 +1,194 @@
+* {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.menu {
+    width: 32px;
+    height: 32px;
+
+}
+
+.logo {
+    width: 77px;
+    height: 77px;
+
+}
+
+.centerimg {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: #A9A9A9;
+}
+
+.app1 {
+    width: 162px;
+    height: 50px;
+    margin-right: 5px;
+
+}
+
+.app2 {
+    width: 162px;
+    height: 50px;
+    margin-left: 5px;
+
+}
+
+/* .arrowpos{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    left: 150;
+} */
+.imgcard {
+    width: 100%;
+}
+
+.green {
+    background-color: #2FAD9F;
+    border-radius: 10px;
+}
+
+.gimg {
+    margin: 50px;
+    margin-bottom: 15px;
+
+    padding: 10px;
+    color: white;
+}
+
+.centerimg2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.myh3 {
+    border-right: #FFD664 solid 5px;
+    padding: 2px;
+    padding-right: 10px;
+}
+
+h6 {
+    color: #A9A9A9;
+}
+
+footer {
+    background-color: #2FAD9F;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 5px;
+    height: 450px;
+}
+
+.overlay {
+    position: absolute;
+    top: 2150px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: linear-gradient(transparent, black);
+    margin-bottom: 0;
+}
+
+.mywidth {
+    width: 20px;
+}
+.white{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .app1 {
+        width: 70px;
+        height: 20px;
+        margin-right: 1px;
+
+    }
+
+    .app2 {
+        width: 70px;
+        height: 20px;
+        margin-left: 1px;
+
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px
+    }
+
+    .gimg {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .centerimg2 {
+        display: flex;
+        justify-content: center;
+        padding: 3px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .centerimg2 {
+        display: flex;
+        justify-content: center;
+        padding: 3px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .app1 {
+        width: 81px;
+        height: 25px;
+        margin-right: 1px;
+
+    }
+
+    .app2 {
+        width: 81px;
+        height: 25px;
+        margin-left: 1px;
+
+    }
+
+    .gimg {
+        margin: 5px;
+        padding: 5px;
+    }
+
+}
